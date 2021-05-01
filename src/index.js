@@ -6,14 +6,19 @@ import Routes from "./Routes"
 import * as serviceWorker from "./serviceWorker"
 import "./Styles/Index.scss"
 
-ReactDOM.render(
-    <React.StrictMode>
-        <Provider store={store}>
-            <Routes />
-        </Provider>
-    </React.StrictMode>,
-    document.getElementById("root")
-)
+const loader = document.querySelector(".loader")
+const showLoader = () => loader.classList.remove("loader--hide")
+const hideLoader = () => loader.classList.add("loader--hide")
+setTimeout(() => {
+    ReactDOM.render(
+        <React.StrictMode>
+            <Provider store={store}>
+                <Routes hideLoader={hideLoader} showLoader={showLoader} />
+            </Provider>
+        </React.StrictMode>,
+        document.getElementById("root")
+    )
+}, 1000)
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.

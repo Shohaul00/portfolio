@@ -1,10 +1,20 @@
 import React from "react"
-import Navigation from "../Header/Navigation/Navigation"
+import Blogs from "../Blogs/Blogs"
+import Contact from "../Contact/Contact"
+import DigitalCV from "../DigitalCV/DigitalCV"
+import Footer from "../Footer/Footer"
+import Header from "../Header/Header/Header"
+import Projects from "../Projects/Projects"
 
 const Home = () => {
     return (
         <>
-            <Navigation />
+            <Header />
+            <Projects />
+            <DigitalCV />
+            <Blogs />
+            <Contact />
+            <Footer />
         </>
     )
 }

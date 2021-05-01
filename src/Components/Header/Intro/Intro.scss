@@ -1,0 +1,54 @@
+.intro {
+    height: 80vh;
+}
+.floating {
+    text-shadow: 0 0 0.5em rgba(255, 255, 255, 0.4),
+        0 0 0.2em rgba(0, 0, 0, 0.3), 0 0.3em 0.2em rgba(0, 0, 0, 0.3);
+}
+
+.social-container {
+    text-align: center;
+}
+.linkedIn-icon {
+    margin-right: 15px;
+    width: 3%;
+    border-radius: 15px;
+    &:hover {
+        border: 3px solid white;
+    }
+}
+.twitter-icon {
+    margin-right: 15px;
+    width: 3%;
+    border-radius: 50%;
+    &:hover {
+        border: 3px solid white;
+    }
+}
+.github-icon {
+    margin-right: 15px;
+    width: 3%;
+    background: white;
+    border-radius: 50%;
+    &:hover {
+        border: 3px solid white;
+    }
+}
+.facebook-icon {
+    margin-right: 15px;
+    margin-left: 15px;
+    background: white;
+    border-radius: 7px;
+    width: 3%;
+    &:hover {
+        border: 3px solid white;
+    }
+}
+
+.icon {
+    transition: 250ms transform ease-in-out;
+    cursor: pointer;
+    &:hover {
+        transform: translateY(5px);
+    }
+}

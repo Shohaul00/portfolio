@@ -1,0 +1,55 @@
+.nav-btn {
+    text-decoration: none;
+    margin: 10px 25px;
+    border: none;
+    background: none;
+    color: white;
+    font-weight: 800;
+    text-transform: uppercase;
+    &:hover {
+        color: white;
+    }
+}
+.active-nav-btn {
+    text-decoration: none;
+    border: none;
+    background: #ff4c60;
+    border-radius: 20px;
+    padding: 5px 20px;
+    color: white;
+    &:hover {
+        color: white;
+    }
+}
+.download-resume-btn {
+    text-decoration: none;
+    margin: 10px 25px;
+    color: white;
+    padding: 3px 20px;
+    border: 2px solid #ff4c60;
+    font-weight: 800;
+    border-radius: 20px;
+    transition: background, transform 300ms ease-in;
+    &:hover {
+        color: white;
+        transform: translateY(2px);
+        background: linear-gradient(to right, #f30621 0%, #ff4c60 100%);
+    }
+}
+.main-btn {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    padding: 5px 20px;
+    border-radius: 20px;
+    border: none;
+    font-weight: 800;
+    background: linear-gradient(to right, #ff4c60 0%, #f30621 100%);
+    transition: background, transform 300ms ease-in;
+    &:hover {
+        color: white;
+        background: #1dc8cc;
+        transform: translateY(2px);
+        background: linear-gradient(to right, #f30621 0%, #ff4c60 100%);
+    }
+}

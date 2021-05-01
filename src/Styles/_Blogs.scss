@@ -1,0 +1,13 @@
+#blogs {
+    min-height: 100vh;
+    margin-top: 50px;
+}
+
+.blog-info {
+    width: 75%;
+}
+@media  screen and (max-width: 768px) {
+    .blog-info {
+        width: 100%;
+    }
+}

@@ -5,14 +5,41 @@
 }
 body {
     font-family: "Recursive", sans-serif;
-    background: #070640;
     color: #f9f9ff;
+    background: #070640;
 }
-.fa-emoji {
-    color: rgb(255, 238, 0);
+body::-webkit-scrollbar {
+    width: 1em;
+    background-color: black;
 }
-.button {
-    text-decoration: none;
-    border: none;
-    background: none;
+
+body::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
 }
+
+body::-webkit-scrollbar-thumb {
+    background: #ff4c60;
+    outline: none;
+}
+
+.title {
+    font-family: "Open Sans", sans-serif;
+    text-transform: uppercase;
+}
+.highlight {
+    color: #ff4c60;
+}
+
+// Loader
+@import "./loader";
+
+// Buttons
+@import "./buttons";
+
+//component Styles
+@import "./Header";
+@import "./Projects";
+@import "./Blogs";
+@import "./DigitalCV";
+@import "./Contact";
