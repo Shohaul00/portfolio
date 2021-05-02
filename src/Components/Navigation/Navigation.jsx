@@ -53,7 +53,7 @@ const Navigation = () => {
                         <Link
                             spy={true}
                             smooth={true}
-                            offset={-70}
+                            offset={-80}
                             duration={1}
                             to="digitalCV"
                             activeClass="active-nav-btn"
