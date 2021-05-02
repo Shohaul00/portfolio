@@ -31,7 +31,7 @@
     border-radius: 20px;
     transition: background, transform 300ms ease-in;
     &:hover {
-        color: white;
+        color: white !important;
         transform: translateY(2px);
         background: linear-gradient(to right, #f30621 0%, #ff4c60 100%);
     }

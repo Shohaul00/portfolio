@@ -1,12 +1,55 @@
-import React from 'react';
+import React from "react"
 
 const DigitalCV = () => {
     return (
         <section id="digitalCV">
-            <h1>digital cv</h1>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, praesentium! Rerum odio pariatur consectetur nemo commodi itaque consequatur dolorum delectus cumque sit voluptates neque quaerat magnam aut possimus praesentium, accusamus mollitia harum voluptatum qui dolor libero natus! Necessitatibus voluptatibus officia odio obcaecati ipsam commodi, pariatur, mollitia rem sunt reprehenderit perspiciatis quis impedit, ex atque laboriosam? Sapiente impedit facilis, minus culpa quibusdam blanditiis rem veritatis quaerat, rerum saepe sint maiores magni commodi atque dolore. Eius dolorum autem quae dolore incidunt voluptas distinctio tempore suscipit, dolor ea in mollitia ex iure. Sunt, tempore repellat. Laborum reprehenderit dolorem illum magni libero eaque cupiditate quisquam voluptate aperiam similique veritatis, accusantium magnam possimus omnis, totam animi ipsam cum. Nesciunt provident fugiat culpa quos iure, eligendi delectus architecto quisquam unde ea reprehenderit sunt sapiente sit tempora maiores totam ad minus similique quasi expedita autem saepe omnis obcaecati aspernatur. Commodi eveniet accusantium, a quibusdam, nam mollitia iste in officia ea recusandae adipisci consequatur! Illum ipsam mollitia, aut veritatis animi distinctio magnam velit esse, nulla impedit ratione necessitatibus cumque dolorum maiores dolor voluptates veniam eligendi architecto vel, ipsa sint incidunt. Voluptate facilis fugiat delectus ut dolorem laborum voluptates dolores? Voluptate molestias provident numquam nisi ex. Et a pariatur eveniet cum sapiente facilis quidem repudiandae accusantium ad quaerat consectetur, voluptatum voluptatem veritatis soluta corporis, harum cumque recusandae necessitatibus quo alias officiis distinctio! Vel hic asperiores fugit quae cupiditate ut laboriosam, odio totam illo saepe vitae possimus ea iusto labore. Accusamus quisquam nemo voluptatum soluta, mollitia vitae corrupti enim! Enim assumenda libero ad placeat. Nesciunt vitae porro, voluptatem saepe sequi iusto fugiat quisquam in vero molestiae velit temporibus maxime amet consectetur quidem totam consequatur. Sapiente pariatur at rem. Tempore voluptates, amet praesentium soluta dolor non numquam enim quaerat quasi harum? Asperiores illum repudiandae iste fugiat quis temporibus facilis, officiis, similique accusamus commodi impedit, provident voluptatum cupiditate quam ratione unde. Ut nemo ea tempore laboriosam sunt ex suscipit accusamus nisi magnam reiciendis debitis excepturi, laudantium dolorem dignissimos, rerum sed possimus eligendi nulla animi earum eveniet! Error non unde ad eius harum corrupti aliquam qui quidem possimus voluptatibus aspernatur delectus laborum, quas aliquid commodi adipisci facilis atque ut repudiandae magnam a explicabo dolorum. Ratione doloremque rerum dignissimos unde eum culpa quam expedita amet inventore consequatur iusto, odio tempora velit corporis consectetur nihil dolorum reprehenderit quasi blanditiis placeat! Enim pariatur, dolores id consectetur magni recusandae rem earum, dicta aspernatur corrupti, eaque sapiente excepturi placeat odit suscipit est nisi! Dolorem praesentium modi necessitatibus animi ratione non ipsa eveniet, perspiciatis, eligendi autem recusandae? Soluta ipsa tenetur dolore neque saepe pariatur tempora quasi, ea, labore sed velit dolor inventore, obcaecati ab repudiandae nesciunt harum quae enim earum perferendis? Dignissimos numquam suscipit rerum nisi nobis ducimus quaerat enim, eveniet impedit animi, atque commodi voluptas inventore! Nemo earum ab repellendus, eum error ipsa dolorem minima corrupti temporibus magni hic esse velit voluptas facilis culpa maxime? Repellendus fugiat aliquid distinctio, rerum harum commodi quibusdam neque quod cupiditate. Ea, exercitationem cumque nostrum ducimus eaque, ipsa, ratione placeat voluptatem atque voluptate debitis. Qui non esse asperiores perferendis fugit ducimus ea voluptates temporibus amet, voluptatibus quisquam doloribus mollitia cumque dignissimos, ad accusantium eos consectetur laudantium! Accusantium odit ipsum officiis voluptatibus, magni aliquam repellat. Magnam suscipit voluptate atque accusamus expedita, incidunt provident eveniet aliquid eligendi voluptates ab fugit odit quas nesciunt quasi esse explicabo. Eum suscipit et mollitia adipisci labore earum rerum temporibus. Suscipit officia repudiandae voluptate voluptas nobis ipsum, unde explicabo rem est consectetur commodi eaque minus laudantium ipsam. Earum aliquam fugit in sint pariatur voluptatem aperiam inventore enim amet est sequi officiis libero optio possimus vitae, dolorum rem. Ducimus dicta assumenda hic reiciendis atque autem veniam vitae alias voluptatem, vero nam sapiente velit sint et inventore ex fuga. Aut, quo? Autem, excepturi dignissimos! Explicabo laboriosam architecto hic est fugit expedita, autem praesentium unde maxime consequuntur! Velit sit iste nisi placeat, fuga a cum ad facilis impedit beatae quis perspiciatis. At ad suscipit perspiciatis nulla deserunt ullam alias aliquid odit necessitatibus nam quisquam deleniti qui ex tempore, molestias eum iure fugiat obcaecati magnam quam consequuntur similique cumque illo repudiandae. Quia labore magni odit sint, reprehenderit incidunt illum repellendus deserunt doloremque voluptatibus? Sint eos porro rem temporibus animi aut officia vel commodi soluta?
+            <h1 className="title text-center fw-bolder">Digital CV</h1>
+            <div className="about-me-card d-flex justify-content-center">
+                <div>
+                    <p>
+                        I am Shihab Shohaul, Front-End Web Developer From Dhaka,
+                        Bangladesh. I have rich experience in Web Development
+                        With React JS. I'm Also Good at Communication &
+                        Leadership.
+                    </p>
+                </div>
+            </div>
+            {/* <div class="container mt-4 text-dark">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card card-1">
+                            <h3>Ionic Native</h3>
+                            <p>
+                                A curated set of ES5/ES6/TypeScript wrappers for
+                                plugins to easily add any native functionality
+                                to your Ionic apps.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card card-2">
+                            <h3>UI Components</h3>
+                            <p>
+                                Tabs, buttons, inputs, lists, cards, and more! A
+                                comprehensive library of mobile UI components,
+                                ready to go.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card card-3">
+                            <h3>Theming</h3>
+                            <p>
+                                Learn how to easily customize and modify your
+                                app’s design to fit your brand across all mobile
+                                platform styles.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div> */}
         </section>
-    );
-};
+    )
+}
 
-export default DigitalCV;
+export default DigitalCV

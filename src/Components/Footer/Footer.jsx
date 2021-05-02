@@ -114,7 +114,7 @@ const Footer = () => {
                                     href="https://www.facebook.com/shihab.shohaul.00/"
                                 >
                                     <i className="fa fa-facebook">
-                                        <FontAwesomeIcon icon={faFacebook} />
+                                     
                                     </i>
                                 </a>
                             </li>
@@ -126,7 +126,7 @@ const Footer = () => {
                                     href="https://twitter.com/Shohaul00"
                                 >
                                     <i className="fa fa-twitter">
-                                        <FontAwesomeIcon icon={faTwitter} />
+             
                                     </i>
                                 </a>
                             </li>
@@ -138,7 +138,7 @@ const Footer = () => {
                                     href="https://dribbble.com/"
                                 >
                                     <i className="fa fa-dribbble">
-                                        <FontAwesomeIcon icon={faDribbble} />
+              
                                     </i>
                                 </a>
                             </li>
@@ -150,7 +150,6 @@ const Footer = () => {
                                     href="https://www.linkedin.com/in/shihab-shohaul-25368520a/"
                                 >
                                     <i className="fa fa-linkedin">
-                                        <FontAwesomeIcon icon={faLinkedin} />
                                     </i>
                                 </a>
                             </li>

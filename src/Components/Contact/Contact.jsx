@@ -26,21 +26,31 @@ const Contact = () => {
                     </p>
                 </div>
                 <div className="row input-container">
-                    <div className="col-xs-12">
-                        <div className="styled-input wide">
-                            <input type="text" required />
-                            <label>Email</label>
+                    <form
+                        action="https://formsubmit.co/2b29bb1b4180b95e0b5e52ceb1643038"
+                        method="POST"
+                    >
+                        <div className="col-xs-12">
+                            <div className="styled-input wide">
+                                <input type="email" name="email" required />
+                                <label>Email</label>
+                            </div>
                         </div>
-                    </div>
-                    <div className="col-xs-12">
-                        <div className="styled-input wide">
-                            <textarea required></textarea>
-                            <label>Message</label>
+                        <div className="col-xs-12">
+                            <div className="styled-input wide">
+                                <textarea name="message" required></textarea>
+                                <label>Message</label>
+                            </div>
                         </div>
-                    </div>
-                    <div className="col-xs-12">
-                        <div className="btn-lrg submit-btn">Send Message</div>
-                    </div>
+                        <div className="col-xs-12">
+                            <button
+                                type="submit"
+                                className="btn-lrg submit-btn"
+                            >
+                                Send Message
+                            </button>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>

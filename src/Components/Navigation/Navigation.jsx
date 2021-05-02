@@ -89,11 +89,10 @@ const Navigation = () => {
                     </button>
                     <a
                         href="https://drive.google.com/uc?id=1gjX98gEyHB4AO9l0uC2H4tDZL1zyCD_u&export=download"
-                        className="download-resume-btn"
+                        className="download-resume-btn d-block text-center"
                     >
                         <FontAwesomeIcon icon={faDownload} /> RESUME
                     </a>
-                    {/* #blogs #header #contact #digitalCV #projects */}
                 </Nav>
             </Navbar.Collapse>
         </Navbar>
