@@ -4,7 +4,7 @@ import { Provider } from "react-redux"
 import { store } from "./app/store"
 import Routes from "./Routes"
 import * as serviceWorker from "./serviceWorker"
-import "./Styles/Index.scss"
+import "./Styles/Index.css"
 
 const loader = document.querySelector(".loader")
 const showLoader = () => loader.classList.remove("loader--hide")

@@ -2,7 +2,7 @@ import React from "react"
 
 const ProjectCard = ({ projectData }) => {
     return (
-        <figure class="snip1139">
+        <figure className="snip1139">
             <img src={projectData.imgURL} alt="sample17" />
             <blockquote>
                 <p className="h3 title fw-bolder text-center mt-2">
