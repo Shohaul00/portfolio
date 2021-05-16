@@ -26,7 +26,7 @@ const Intro = () => {
             <h1 className="title floating fw-bolder mb-3 mt-3">
                 Shihab Shohaul
             </h1>
-            <p>I'm a Front-End Developer</p>
+            <p style={{backgroundColor:"hsla(0, 0%, 40%, 0.548)", padding: "3px 10px", borderRadius: "5px"}}>I'm a Front-End Developer</p>
             <div className="social-container">
                 <a
                     href="https://www.facebook.com/shihab.shohaul.00/"

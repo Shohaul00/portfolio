@@ -2,8 +2,9 @@
     height: 80vh;
 }
 .floating {
-    text-shadow: 0 0 0.5em rgba(255, 255, 255, 0.4),
-        0 0 0.2em rgba(0, 0, 0, 0.3), 0 0.3em 0.2em rgba(0, 0, 0, 0.3);
+    padding: 3px 10px;
+    border-radius: 10px;
+    background-color: hsla(0, 0%, 50%, 0.548);
 }
 
 .social-container {

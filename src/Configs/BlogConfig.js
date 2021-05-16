@@ -1,7 +1,7 @@
 export const BlogConfig = [
     {
         id: 1,
-        title: "Refresh Your JavaScript Knowledge in 30 Minutes!",
+        title: "Refresh Your JavaScript Knowledge!",
         imgURL: "https://miro.medium.com/max/2560/1*-ZkUWLhsnRSz3SkFeKpsKw.png",
         time: "2 Min",
         contentLink:
