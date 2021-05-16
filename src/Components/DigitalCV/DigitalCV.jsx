@@ -5,7 +5,7 @@ import React from "react"
 const DigitalCV = () => {
     return (
         <section id="digitalCV">
-            <h1 className="title text-center fw-bolder">Digital CV</h1>
+            <h1 className="title text-center fw-bolder">SKILLS</h1>
             <div className="about-me-card d-flex justify-content-center">
                 {/* <p>
                     I am Shihab Shohaul, Front-End Web Developer From Dhaka,
@@ -15,12 +15,12 @@ const DigitalCV = () => {
             </div>
             <div className="container digital-cv-container mt-4 text-dark">
                 <div className="row">
-                    <div className="col-md-4">
+                    <div className="col-md-4 mt-4">
                         <div className="card card-1">
                             <h3>REDUX JS</h3>
                             <p>
                                 I'm Skilled In State Management in React With
-                                Redux JS. I've Done 3 Projects With Redux JS{" "}
+                                Redux JS. I Know Redux Toolkit & Redux Devtools{" "}
                                 <FontAwesomeIcon
                                     style={{ color: "red" }}
                                     icon={faHeartbeat}
@@ -28,7 +28,7 @@ const DigitalCV = () => {
                             </p>
                         </div>
                     </div>
-                    <div className="col-md-4">
+                    <div className="col-md-4 mt-4">
                         <div className="card card-2">
                             <h3>REACT JS</h3>
                             <p>
@@ -36,7 +36,19 @@ const DigitalCV = () => {
                             </p>
                         </div>
                     </div>
-                    <div className="col-md-4">
+                    <div className="col-md-4 mt-4">
+                        <div className="card card-1">
+                            <h3>React Native</h3>
+                            <p>
+                                I've Experience working with React Native with Expo Environment. I'd love to Work on a Native Project.
+                                <FontAwesomeIcon
+                                    style={{ color: "red" }}
+                                    icon={faHeartbeat}
+                                />
+                            </p>
+                        </div>
+                    </div>
+                    <div className="col-md-4 mt-4">
                         <div className="card card-3">
                             <h3>MATERIAL UI</h3>
                             <p>
@@ -44,6 +56,27 @@ const DigitalCV = () => {
                             </p>
                         </div>
                     </div>
+                    <div className="col-md-4 mt-4">
+                        <div className="card card-1">
+                            <h3>BOOTSTRAP</h3>
+                            <p>
+                                I'm Skilled In Styling Websites using Bootstrap. I Implemented it In React Using React Bootstrap.
+                                <FontAwesomeIcon
+                                    style={{ color: "red" }}
+                                    icon={faHeartbeat}
+                                />
+                            </p>
+                        </div>
+                    </div>
+                    <div className="col-md-4 mt-4">
+                        <div className="card card-3">
+                            <h3>STYLED & SCSS</h3>
+                            <p>
+                                I'm Skilled In CSS pre-proccessor. I Use Scss & styled components on React Projects.
+                            </p>
+                        </div>
+                    </div>
+                    
                 </div>
             </div>
         </section>

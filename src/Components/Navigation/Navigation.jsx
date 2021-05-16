@@ -58,7 +58,7 @@ const Navigation = () => {
                             to="digitalCV"
                             activeClass="active-nav-btn"
                         >
-                            <FontAwesomeIcon icon={faPollH} /> Digital CV
+                            <FontAwesomeIcon icon={faPollH} /> SKILLS
                         </Link>
                     </button>
 
