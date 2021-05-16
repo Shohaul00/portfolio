@@ -1,12 +1,12 @@
 import {
     faFacebookMessenger,
-    faRProject,
+    faRProject
 } from "@fortawesome/free-brands-svg-icons"
 import {
     faBlog,
     faDownload,
     faHome,
-    faPollH,
+    faPollH
 } from "@fortawesome/free-solid-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import React from "react"
@@ -88,7 +88,7 @@ const Navigation = () => {
                         </Link>
                     </button>
                     <a
-                        href="https://drive.google.com/uc?id=1gjX98gEyHB4AO9l0uC2H4tDZL1zyCD_u&export=download"
+                        href="https://drive.google.com/uc?id=1ImVTgzOWbkv2AjoU07koh_ySNVZRUePl&export=download"
                         className="download-resume-btn d-block text-center"
                     >
                         <FontAwesomeIcon icon={faDownload} /> RESUME
