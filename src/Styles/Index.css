@@ -582,7 +582,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 #projects {
-  background: #070640;
+  background: black;
   margin-bottom: 50px;
 }
 
@@ -642,7 +642,7 @@ figure.snip1139 blockquote {
 
 #blogs {
   margin-top: 50px;
-  background: #070640;
+  background: black;
 }
 
 .blog-info {
@@ -718,7 +718,7 @@ figure.snip1139 blockquote {
 }
 
 #contact {
-  background: #070640;
+  background: black;
   margin-top: 50px;
   margin-bottom: 50px;
   height: 100vh;

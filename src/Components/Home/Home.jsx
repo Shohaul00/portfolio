@@ -7,16 +7,18 @@ import Header from "../Header/Header/Header"
 import Projects from "../Projects/Projects"
 
 const Home = () => {
-    return (
-        <>
-            <Header />
-            <Projects />
-            <DigitalCV />
-            <Blogs />
-            <Contact />
-            <Footer />
-        </>
-    )
+  return (
+    <>
+      <Header />
+      <div style={{ background: "#000" }}>
+        <Projects />
+        <DigitalCV />
+        <Blogs />
+        <Contact />
+        <Footer />
+      </div>
+    </>
+  )
 }
 
 export default Home
